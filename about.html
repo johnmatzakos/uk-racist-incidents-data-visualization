@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Racist Incidents</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/maps/modules/map.js"></script>
+	<script src="https://code.highcharts.com/maps/modules/data.js"></script>
+	<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+	<script src="https://code.highcharts.com/mapdata/countries/gb/custom/gb-countries.js"></script>	
+	<script type="text/javascript" src="https://code.highcharts.com/modules/exporting.js"></script>
+	
+	<!--<script type="text/javascript" src="localstorage.js"></script>-->
+	<script type="text/javascript" src="racist_incidents.js"></script>
+	<link rel="stylesheet" type="text/css" href="racist_incidents.css">
+</head>
+
+<body>
+	<header><h1><center>Racist Incidents In The UK</center></h1></header>
+
+		<ul>
+			<li><a href="racist_incidents.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="englandwales.html">England & Wales</a></li>
+			<li><a href="scotland.html">Scotland</a></li>
+			<li><a href="resources.html">Resources</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+
+	
+	<div class="main">
+		<div id="container">
+			<div id="text_container">
+				<h3>About the project</h3>
+				<p align="justify">
+				Nowadays, in the era of financial crisis that we live in, was risen a social crisis which caused 
+				racist incidents and hate crimes. In this project, the aim is to efficiently visualize the racists 
+				incidents that occurred in the United Kingdom in a certain period of time. This is going to be achieved 
+				by developing an interactive environment, in this case a website that is going to present different 
+				aspects of this subject. 
+				</p>
+				<p align="justify">
+				The visualisation of racist incidents in the UK has the form of a website and the included graphs are located
+				in the three pages, "Home", "England \& Wales" and "Scotland". Users can chose what aspect of the racist incident
+				data they want to visualize and interact with. That can be done by using the main menu and then the sidebar provided
+				in each page. The intended audience, the user, of this visualisation is wide that is because it may concern everyone.
+				</p>
+				<p align="justify">
+				In the home screen users can interact with the map provided and by clicking on it, the total number of incidents for 
+				each country and also a global view of the incidents that occurred in UK as a whole. The first impression on seeing 
+				these graphs is that the general trend is that the total incidents in UK are being reduced but in the case of Scotland 
+				that trend does not apply. Instead of decreasing as it is observed in England and Wales, in Scotland were increased from
+				2011 to 2012. Therefore, progress is generally observed as the general trend is the steady decrease of racist incidents 
+				and hate crimes.
+				</p>
+				<p align="justify">
+				Moving on the pages "England \& Wales" and "Scotland", there are different option on what aspects of racist incidents data 
+				users want to visualise. Regarding England and Wales the total number of incidents per year in each police authority area is
+				available along with the crime types and motives for these incidents. However for Scotland the same aspects are available and
+				additionally the ethnic groups of victims, complainers and perpetrators. The trend once again in most areas is the gradual 
+				decrease of the number of incidents that occur. 
+				</p>
+				</br>
+				<h3>About the data</h3>
+				<p align="justify">
+				The data used in this project were found in government websites, such as data.gov.uk, gov.scot and ons.gov.uk. 
+				These sites are a part of the open government concept and often they provide data collected and used from government 
+				organizations. In the case of racist incidents the main institution the institution that performed data acquisition 
+				is the police force of each local authority area for England, Wales and Scotland. 
+				</p>
+				<p align="justify">
+				The police forces recorded all the reported hate crimes in various formats. Each country's police force had a different 
+				system of recording such data but the data acquisition period was the same in all cases, from April through March. For example 
+				England and Wales recorded only the incidents per local authority area and divided the crimes in three categories, violence, 
+				criminal damage, other offenses and in five motives, race, religion, sexual orientation, disability and gender. On the other 
+				hand Scotland recorded the incidents in more detail. Not only recorded them for each local authority area but also the ethnic 
+				groups of victims and perpetrators, their language, age and gender while providing also the percentages for each category apart 
+				from the actual recorded numbers. 
+				</p>
+				<p align="justify">
+				Considering the difference between the format of the data collection per UK country, some issues occurred. Firstly, the inconsistency 
+				of the data features that were recorded per country and per year affected the way that the data were going to be visualized, in order 
+				to provide a global view on the subject for United Kingdom as a whole. Secondly, the data provided by the government institutions of 
+				each country have different recording time periods. For example, regarding England and Wales government sites provided only data about 
+				racist incidents that occurred between 2008 and 2012. Regarding Scotland though, the time period of recored data was from 2004 to 2014.
+				Finally, unfortunately there were no data found about Northern Ireland.
+				</p>
+				<h4>Note</h4>
+				<p align="justify">
+				This website was created as a piece of coursework for the module Information Visualization
+				of the MSc Knowledge Discovery & Data Mining of the Uinversity of East Anglia, in Norwich, UK in May 2017.
+				</p>
+				
+				</br>
+				
+			</div>
+		</div>
+		<div id="sidebar" >
+		
+		</div>
+		</br>
+		<div id="footer">
+
+		</div>
+		<!--The following line was taken from w3schools.com: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+		<button onclick="topFunction()" id="topButton" title="Return to top"><b>Return to Top</b></button>
+		
+	</div>
+	
+    
+</body>
+</html>
+
