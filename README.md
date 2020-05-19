@@ -5,4 +5,4 @@ Other programming languages used in this project apart from JavaScript are HTML 
 
 The visualizations are displayed in the context of a website, which you can see by clicking the link below:
 
-https://johnmatzakos.github.io/uk-racist-incidents-data-visualization/racist_incidents.html
+https://johnmatzakos.github.io/uk-racist-incidents-data-visualization/
