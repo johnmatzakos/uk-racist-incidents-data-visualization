@@ -19,7 +19,7 @@
 	<header><h1><center>Racist Incidents In The UK</center></h1></header>
 
 		<ul>
-			<li><a href="racist_incidents.html">Home</a></li>
+			<li><a href="index.md">Home</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="englandwales.html">England & Wales</a></li>
 			<li><a href="scotland.html">Scotland</a></li>
